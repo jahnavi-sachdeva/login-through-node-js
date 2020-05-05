@@ -1,7 +1,5 @@
 const{createUser,login,deleteUser,updateUser}=require("./controller")
 const express =require("express");
-const bodyParser = require('body-parser')
-const {compareSync,compare}=require('bcrypt')
 const app=express()
 const router=express.Router()
 const db=require("./models/sign")
